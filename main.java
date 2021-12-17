@@ -1,7 +1,5 @@
 import javax.swing.JOptionPane;
-
-import java.nio.file.AccessDeniedException;
-import java.util.EnumSet;
+import javax.swing.JFrame;
 public class main{
     public static void main(String[] args) {
         // for (pikachu people : pikachu.values())
@@ -28,13 +26,17 @@ public class main{
         // objTogipi.eat();
         // pikaobj.eat();
 
-        String fn = JOptionPane.showInputDialog("Enter a number 1");
-        String sn = JOptionPane.showInputDialog("Enter a number 2");
+        // String fn = JOptionPane.showInputDialog("Enter a number 1");
+        // String sn = JOptionPane.showInputDialog("Enter a number 2");
 
-        int num1 = Integer.parseInt(fn);
-        int num2 = Integer.parseInt(sn);
-        int sum = num1+num2;
+        // int num1 = Integer.parseInt(fn);
+        // int num2 = Integer.parseInt(sn);
+        // int sum = num1+num2;
 
-        JOptionPane.showMessageDialog(null, "The addition of the numbers are " + sum, "Addition",JOptionPane.PLAIN_MESSAGE);
+        // JOptionPane.showMessageDialog(null, "The addition of the numbers are " + sum, "Addition",JOptionPane.PLAIN_MESSAGE);
+        pikachu raman = new pikachu();
+        raman.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        raman.setSize(276,567);
+        raman.setVisible(true);
     }
 }
