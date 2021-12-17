@@ -34,9 +34,13 @@ public class main{
         // int sum = num1+num2;
 
         // JOptionPane.showMessageDialog(null, "The addition of the numbers are " + sum, "Addition",JOptionPane.PLAIN_MESSAGE);
-        pikachu raman = new pikachu();
+        // pikachu raman = new pikachu();
+        // raman.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        // raman.setSize(276,567);
+        // raman.setVisible(true);
+        togipi raman = new togipi();
         raman.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        raman.setSize(276,567);
+        raman.setSize(256,256);
         raman.setVisible(true);
     }
 }
