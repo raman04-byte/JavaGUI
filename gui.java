@@ -21,6 +21,7 @@ public class gui extends JFrame
         reg = new JButton("Reg Button");
         add(reg);
 
+        
         Icon a = new ImageIcon(getClass().getResource("Goku.jpg")); 
         Icon b = new ImageIcon(getClass().getResource("Pikachu.jpg"));
         
