@@ -42,9 +42,14 @@ public class old{
         // raman.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         // raman.setSize(256,256);
         // raman.setVisible(true);
-        pokelist ll = new pokelist();
-        chari kk = new chari();
-        ll.add(kk);
+        // pokelist ll = new pokelist();
+        // chari kk = new chari();
+        // ll.add(kk);
+        // gui go = new gui();
+        // go.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        // go.setSize(300,200);
+        // go.setVisible(true);
+
 
     }
 }

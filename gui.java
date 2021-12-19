@@ -43,7 +43,6 @@ public class gui extends JFrame
         public void actionPerformed(ActionEvent event)
         {
             JOptionPane.showMessageDialog(null,  String.format("%s", event.getActionCommand()));
-            // JOptionPane.showMessageDialog(new, (System.out.println("Button is clicked", "%s")), title, messageType);
         }
     }
 }
