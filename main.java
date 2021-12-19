@@ -38,9 +38,13 @@ public class main{
         // raman.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         // raman.setSize(276,567);
         // raman.setVisible(true);
-        togipi raman = new togipi();
-        raman.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        raman.setSize(256,256);
-        raman.setVisible(true);
+        // togipi raman = new togipi();
+        // raman.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        // raman.setSize(256,256);
+        // raman.setVisible(true);
+        pokelist ll = new pokelist();
+        chari kk = new chari();
+        ll.add(kk);
+
     }
 }
