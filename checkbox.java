@@ -1,4 +1,3 @@
-import java.awt.FlowLayout;
 import java.awt.event.ActionListener;
 import java.util.logging.Handler;
 import java.awt.event.ActionEvent;
@@ -7,6 +6,8 @@ import javax.swing.JButton;
 import javax.swing.Icon;
 import javax.swing.ImageIcon;
 import javax.swing.JOptionPane;
+import javax.swing.text.html.ImageView;
+
 import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
@@ -14,20 +15,25 @@ import javax.swing.*;
 public class checkbox extends JFrame 
 {
     private JTextField tf;
+    // private JButton tf;
     private JCheckBox boldbox;
     private JCheckBox italicbox;
 
     public checkbox()
     {
+        
         super("This is a title");
         setLayout(new FlowLayout());
 
-        tf = new JTextField("This is a sentece and I am very bad at typing here ,LOL", 100);
+        tf = new JTextField("This is a sentece and I am very bad at typing here ,LOL", 14);
         tf.setFont(new Font("Serif", Font.PLAIN,14));
+        // Icon x = new ImageIcon(getClass().getResource("Pikachu.jpg"));  
+        tf.setBackground(Color.PINK);
         add(tf);
 
         boldbox = new JCheckBox("bold");
         italicbox = new JCheckBox("italic");
+        italicbox.setBackground(Color.CYAN);
         add(boldbox);
         add(italicbox);
 
