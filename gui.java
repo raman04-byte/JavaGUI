@@ -19,9 +19,11 @@ public class gui extends JFrame
         setLayout(new FlowLayout());
 
         reg = new JButton("Reg Button");
+        Icon x = new ImageIcon(getClass().getResource("Button.jpg"));
+        reg = new JButton("Reg button",x);
         add(reg);
 
-        
+
         Icon a = new ImageIcon(getClass().getResource("Goku.jpg")); 
         Icon b = new ImageIcon(getClass().getResource("Pikachu.jpg"));
         
@@ -33,13 +35,15 @@ public class gui extends JFrame
         HandlerClass handler = new HandlerClass(); 
         reg.addActionListener(handler);
         custom.addActionListener(handler);
+
     }
 
     private class HandlerClass implements ActionListener
     {
         public void actionPerformed(ActionEvent event)
         {
-            JOptionPane.showMessageDialog(null, String.format("%s", event.getActionCommand()));
+            JOptionPane.showMessageDialog(null,  String.format("%s", event.getActionCommand()));
+            // JOptionPane.showMessageDialog(new, (System.out.println("Button is clicked", "%s")), title, messageType);
         }
     }
 }
