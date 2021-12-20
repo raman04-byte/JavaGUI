@@ -8,7 +8,5 @@ public class main
         go.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         go.setSize(300,300);
         go.setVisible(true);
-        // go.setShape();
-
     }
 }
