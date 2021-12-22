@@ -1,9 +1,6 @@
 import java.awt.*;
 import java.awt.event.*;
-import java.util.logging.Handler;
 import javax.swing.*;
-import javax.swing.event.MouseInputAdapter;
-import org.w3c.dom.events.MouseEvent;
 
 public class Bug1 extends JFrame 
 {
@@ -46,7 +43,7 @@ public class Bug1 extends JFrame
             statusbar.setText("You have entered the area");
             mousePanel.setBackground(Color.CYAN);
         }
-        public void mouseExcited (MouseEvent event)
+        public void mouseExited (MouseEvent event)
         {
             statusbar.setText("Mouse has left the window");
             mousePanel.setBackground(Color.PINK);
