@@ -8,7 +8,11 @@ public class main
         // go.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         // go.setSize(350,350);
         // go.setVisible(true);
-        Bug go = new Bug();
+        // Bug go = new Bug();
+        // go.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        // go.setSize(350,350);
+        // go.setVisible(true);
+        Bug1 go = new Bug1();
         go.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         go.setSize(350,350);
         go.setVisible(true);
