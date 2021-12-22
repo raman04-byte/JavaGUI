@@ -26,7 +26,7 @@ import javax.swing.*;
 
     public Radio()
     {
-        super("This is a title");
+        super("Radio button program");
         setLayout(new FlowLayout());
 
         tf = new JTextField("This is a sample textfield", 15);

@@ -6,7 +6,7 @@ public class main
     {
         Radio go = new Radio();
         go.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        go.setSize(300,300);
+        go.setSize(350,350);
         go.setVisible(true);
     }
 }
