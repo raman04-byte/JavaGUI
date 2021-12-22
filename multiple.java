@@ -1,5 +1,4 @@
 import java.awt.event.ActionListener;
-import java.util.concurrent.locks.ReentrantReadWriteLock.ReadLock;
 import java.util.logging.Handler;
 import java.awt.event.ActionEvent;
 import java.awt.*;
@@ -34,5 +33,11 @@ public class multiple extends JFrame
             }
         );
         add(movebutton);
+        rightlist = new JList();
+        rightlist.setVisibleRowCount(3);
+        rightlist.setFixedCellWidth(100);
+        rightlist.setFixedCellHeight(15);
+        rightlist.setSelectionMode(ListSelectionModel.MULTIPLE_INTERVAL_SELECTION);
+        add(new JScrollPane(rightlist));
     }
 }

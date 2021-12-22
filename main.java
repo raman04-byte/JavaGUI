@@ -12,7 +12,11 @@ public class main
         // go.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         // go.setSize(350,350);
         // go.setVisible(true);
-        list go = new list();
+        // list go = new list();
+        // go.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        // go.setSize(350,350);
+        // go.setVisible(true);
+        multiple go = new multiple();
         go.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         go.setSize(350,350);
         go.setVisible(true);
