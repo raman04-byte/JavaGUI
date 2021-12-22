@@ -8,7 +8,7 @@ public class main
         // go.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         // go.setSize(350,350);
         // go.setVisible(true);
-        Combo1 go = new Combo1();
+        Bug go = new Bug();
         go.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         go.setSize(350,350);
         go.setVisible(true);

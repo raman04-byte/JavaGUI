@@ -1,12 +1,11 @@
 import java.awt.event.ActionListener;
 import java.util.logging.Handler;
 import java.awt.event.ActionEvent;
-import javax.swing.text.html.ImageView;
 import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
 
-public class Combo1 extends JFrame {
+public class Bug extends JFrame {
 
     private JComboBox box;
     private JLabel picture;
@@ -14,7 +13,7 @@ public class Combo1 extends JFrame {
     private static String[] filename = {"Button.jpg", "Pikachu.jpg"};
     private Icon[] pics = {new ImageIcon(getClass().getResource(filename[0]))};
 
-    public Combo1() {
+    public Bug() {
         super("Title here");
         setLayout(new FlowLayout());
 
