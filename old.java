@@ -1,5 +1,3 @@
-import javax.swing.JOptionPane;
-import javax.swing.JFrame;
 public class old{
     public static void main(String[] args) {
         // for (pikachu people : pikachu.values())
@@ -60,6 +58,28 @@ public class old{
         // go.setSize(300,300);
         // go.setVisible(true);
         // // go.setShape();
+        
+        // Radio go = new Radio();
+        // go.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        // go.setSize(350,350);
+        // go.setVisible(true);
+        // Bug go = new Bug();
+        // go.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        // go.setSize(350,350);
+        // go.setVisible(true);
+        // Bug1 go = new Bug1();
+        // go.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        // go.setSize(350,350);
+        // go.setVisible(true);
+        // list go = new list();
+        // go.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        // go.setSize(350,350);
+        // go.setVisible(true);
+        // multiple go = new multiple();
+        // go.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        // go.setSize(350,350);
+        // go.setVisible(true);
+    
 
     }
 }
