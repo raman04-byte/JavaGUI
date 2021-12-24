@@ -10,11 +10,14 @@ public class main
         // go.setSize(350,350);
         // go.setVisible(true);
 
-        JFrame j = new JFrame("Awesome title is this");
-        j.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        gra gg = new gra();
-        j.add(gg);
-        j.setSize(350,350);
-        j.setVisible(true);
+        // JFrame j = new JFrame("Awesome title is this");
+        // j.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        // gra gg = new gra();
+        // j.add(gg);
+        // j.setSize(350,350);
+        // j.setVisible(true);
+
+        chooser nn = new chooser();
+        nn.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     }
 }

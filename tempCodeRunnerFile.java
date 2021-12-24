@@ -1,6 +1,6 @@
-r number one ");
-            int i = scn.nextInt();
-            System.out.println("Enter second number ");
-            int s = scn.nextInt();
-            int div = i/s;
-            System.out.println(div);
+
+        // j.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        // gra gg = new gra();
+        // j.add(gg);
+        // j.setSize(350,350);
+        // j.setVisible(true);
