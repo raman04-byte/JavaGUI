@@ -87,7 +87,16 @@ public class old{
         // go.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         // go.setSize(350,350);
         // go.setVisible(true);
-    
+        
+        // togipi nn = new togipi();
+        // nn.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        // nn.setSize(350,350);
+        // nn.setVisible(true);
+        // Adapt nn = new Adapt();
+        // nn.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        // nn.setSize(350,350);
+        // nn.setVisible(true);
+
 
     }
 }

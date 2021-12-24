@@ -5,13 +5,9 @@ public class main
 {
     public static void main(String[] args) 
     {
-        togipi nn = new togipi();
-        nn.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        nn.setSize(350,350);
-        nn.setVisible(true);
-        // Adapt nn = new Adapt();
-        // nn.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        // nn.setSize(350,350);
-        // nn.setVisible(true);
+        lays go = new lays();
+        go.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        go.setSize(350,350);
+        go.setVisible(true);
     }
 }
