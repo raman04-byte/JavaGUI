@@ -1,5 +1,7 @@
 import java.util.*;
 
+import javax.naming.ldap.LdapContext;
+
 public class reverse_copy 
 {
     public static void main(String[] args) {
@@ -23,7 +25,9 @@ public class reverse_copy
         output(listcopy);
 
         // Filling random values in this
-
+        Collections.fill(listcopy, 'x');
+        System.out.println("After filling the list");
+        output(listcopy);
     }  
 
     private static void output(List<Character> ll)
