@@ -1,2 +1,4 @@
-hupikachupikachupikachupikachupikachupikachu";
-        // System.out.println(str
+for (String x : list2) 
+        {
+            System.out.printf("%s ",x);    
+        

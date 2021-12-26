@@ -1,7 +1,4 @@
 import java.util.*;
-
-import javax.naming.ldap.LdapContext;
-
 public class reverse_copy 
 {
     public static void main(String[] args) {
