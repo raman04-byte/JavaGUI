@@ -4,8 +4,7 @@ public class set
 {
     public static void main(String[] args)
     {
-        // String[] things = {"Raman","raman","Raman","Tank"};
-        String[] things = {"Raman","tt","Raman","Tank"};
+        String[] things = {"Raman","raman","Raman","Tank"};
         List<String> list = Arrays.asList(things);
         System.out.println("The values in the string are ");
         System.out.printf("%s ", list);
