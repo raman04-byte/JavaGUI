@@ -29,7 +29,7 @@ public class ReadFile extends JFrame {
                     }
                 });
         add(new JScrollPane(display), BorderLayout.CENTER);
-        setSize(200, 200);
+        setSize(500, 500);
         setVisible(true);
     }
 
