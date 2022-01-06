@@ -70,7 +70,7 @@ public class client extends JFrame {
             } catch (ClassNotFoundException classNotFoundException) {
                 showMessage("\n Object type is not recoginsed...!!");
             }
-        } while (!message.equals("SERVER - END"));
+        } while (!message.equals("\nSERVER - END"));
     }
     private void closeCrap(){
         showMessage("\n Closing crap down ...!!!!");
@@ -87,7 +87,7 @@ public class client extends JFrame {
     private void sendData(String message)
     {
         try {
-                output.writeObject("CLIENT - " + message);
+                output.writeObject("\nCLIENT - " + message);
                 output.flush();
                 showMessage("\nCLIENT - " + message);            
         } catch (IOException ioException) {

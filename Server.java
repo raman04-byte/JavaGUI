@@ -63,9 +63,9 @@ public class Server extends JFrame
     // Waiting for connections public method is being used
     private void waitForConnection() throws IOException 
     {
-        showMessage("Waiting for someone to connect !! ... \n");
+        showMessage("\nWaiting for someone to connect !! ... \n");
         connection = server.accept(); 
-        showMessage("Now connected to someone with address " + connection.getInetAddress().getHostName());
+        showMessage("\nNow connected to someone with address " + connection.getInetAddress().getHostName());
     }
     // Stream for send and receive data 
     private void setUpStreams() throws IOException
@@ -77,7 +77,7 @@ public class Server extends JFrame
     }
     // During the chat conversation 
     private void whileChatting() throws IOException{
-            String message = "You are now connected for the chat ";
+            String message = "\nYou are now connected for the chat ";
             sendMessage(message);
             ableToType(true);
             do {
