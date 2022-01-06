@@ -84,7 +84,7 @@ public class client extends JFrame {
         }
     }
     // zend message to server
-    private void sendMessage(String message)
+    private void sendData(String message)
     {
         try {
                 output.writeObject("CLIENT - " + message);
@@ -102,6 +102,18 @@ public class client extends JFrame {
              public void run()
              {
                  chatwindow.append(m);
+             }   
+            }
+        );
+    }
+    // Giving user permission to type
+    private void ableToType(final boolean tof)
+    {
+        SwingUtilities.invokeLater(
+            new Runnable() {
+             public void run()
+             {
+                 userText.setEditable(tof);
              }   
             }
         );

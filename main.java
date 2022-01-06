@@ -8,6 +8,6 @@ public class main
     // dude.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     Server me = new Server();
     me.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-    // me.Startrunning();
+    me.startrunning();
 }
 }

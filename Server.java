@@ -37,7 +37,7 @@ public class Server extends JFrame
         setVisible(true);
     }
 
-    private void startrunning() 
+    public void startrunning() 
     {
         try{
             server = new ServerSocket(6789,100);
