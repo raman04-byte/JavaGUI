@@ -52,7 +52,7 @@ public class Images extends JFrame
         if(loaded)
         {
             g.drawImage(bg,0,0,null);
-            g.drawImage(pic,0,0,null);
+            g.drawImage(pic,170,180,null);
         }
     }
 }
