@@ -2,7 +2,7 @@ import javax.swing.JFrame;
 import java.awt.*;
 public class main extends JFrame
 {
-    public static void main(String... args) 
+    public static void main(String[] args) 
     {
         DisplayMode dm = new DisplayMode(800,600,16,DisplayMode.REFRESH_RATE_UNKNOWN); 
         main m = new main();
@@ -10,8 +10,8 @@ public class main extends JFrame
     }
     public void run(DisplayMode dm)
     {
-        setBackground(Color.BLACK);
         setForeground(Color.WHITE);
+        setBackground(Color.PINK);
         setFont(new Font("Arial", Font.PLAIN,24));
 
         screen s = new screen();

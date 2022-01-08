@@ -1,3 +1,4 @@
+// The main class is starting now
 import javax.swing.JFrame;
 import javax.swing.ImageIcon;
 import java.awt.*;
@@ -10,16 +11,21 @@ public class Images extends JFrame
         i.run(dm);
     }
 
+    private screen s;
+    private Image bg;
+    private Image pic;
+    private boolean loaded;
     // This is a run method start and this is it
     public void run(DisplayMode dm)
     {
         setBackground(Color.BLACK);
         setForeground(Color.WHITE);
         setFont(new Font("Arial", Font.PLAIN,24));
-
+        loaded = false;
         screen s = new screen();
         try {
             s.setFullScreen(dm, this);
+            loadpics();
             try{
                 Thread.sleep(5000);
             }
@@ -28,6 +34,14 @@ public class Images extends JFrame
             s.restoreScreen();
         }
     }
+    // Load picture
+    public void loadpics()
+    {
+        bg = new ImageIcon("Goku.jpg").getImage();
+        pic = new ImageIcon("Pikachu.jpg").getImage();
+        loaded = true;
+        repaint();
+    }
     public void paint(Graphics g)
     {
         if(g instanceof Graphics2D)
@@ -35,6 +49,10 @@ public class Images extends JFrame
             Graphics2D g2= (Graphics2D)g;
             g2.setRenderingHint(RenderingHints.KEY_TEXT_ANTIALIASING, RenderingHints.VALUE_TEXT_ANTIALIAS_ON); 
         }
-        g.drawString("This is gonna be awesome now", 200, 200);
+        if(loaded)
+        {
+            g.drawImage(bg,0,0,null);
+            g.drawImage(pic,0,0,null);
+        }
     }
 }
