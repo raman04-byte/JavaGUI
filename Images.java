@@ -1,13 +1,16 @@
 import javax.swing.JFrame;
+import javax.swing.ImageIcon;
 import java.awt.*;
-public class main extends JFrame
+public class Images extends JFrame
 {
     public static void main(String... args) 
     {
         DisplayMode dm = new DisplayMode(800,600,16,DisplayMode.REFRESH_RATE_UNKNOWN); 
-        main m = new main();
-        m.run(dm);
+        Images i = new Images();
+        i.run(dm);
     }
+
+    // This is a run method start and this is it
     public void run(DisplayMode dm)
     {
         setBackground(Color.BLACK);
