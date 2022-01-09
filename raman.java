@@ -1,8 +1,6 @@
 import java.awt.*;
-
 import javax.swing.ImageIcon;
 import javax.swing.JFrame;
-import javax.swing.Renderer;
 
 public class raman extends JFrame {
     public static void main(String[] args) {
