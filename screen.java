@@ -1,10 +1,10 @@
 import java.awt.*;
 import javax.swing.JFrame;
 
-public class screen {
+public class Screen {
     private GraphicsDevice vc;
 
-    public screen() {
+    public Screen() {
         GraphicsEnvironment env = GraphicsEnvironment.getLocalGraphicsEnvironment();
         vc = env.getDefaultScreenDevice();
     }

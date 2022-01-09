@@ -18,7 +18,7 @@ public class th implements Runnable
             Thread.sleep(time);
             System.out.printf("%s is done sleeping for %d time", time);
         } catch (Exception e) {
-            //TODO: handle exception
+            
         }
     }
 }

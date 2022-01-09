@@ -11,7 +11,6 @@ public class Images extends JFrame
         i.run(dm);
     }
 
-    private screen s;
     private Image bg;
     private Image pic;
     private boolean loaded;
@@ -22,7 +21,7 @@ public class Images extends JFrame
         setForeground(Color.WHITE);
         setFont(new Font("Arial", Font.PLAIN,24));
         loaded = false;
-        screen s = new screen();
+        Screen s = new Screen();
         try {
             s.setFullScreen(dm, this);
             loadpics();

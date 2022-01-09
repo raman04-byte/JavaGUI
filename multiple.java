@@ -1,8 +1,6 @@
 import java.awt.event.ActionListener;
-import java.util.logging.Handler;
 import java.awt.event.ActionEvent;
 import java.awt.*;
-import java.awt.event.*;
 import javax.swing.*;
 
 public class multiple extends JFrame

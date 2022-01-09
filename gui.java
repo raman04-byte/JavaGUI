@@ -1,6 +1,5 @@
 import java.awt.FlowLayout;
 import java.awt.event.ActionListener;
-import java.util.logging.Handler;
 import java.awt.event.ActionEvent;
 import javax.swing.JFrame;
 import javax.swing.JButton;

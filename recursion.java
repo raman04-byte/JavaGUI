@@ -4,11 +4,12 @@ public class recursion
 {
         //main
         public static void main(String[] args) {
-            Scanner scn = new Scanner(System.in);
-            System.out.println("Enter a number you want to do factorial :");
-            long f = scn.nextLong();
-            System.out.print("The factorial of the number is : ");
-            System.out.println(fact(f));
+            try (Scanner scn = new Scanner(System.in)) {
+                System.out.println("Enter a number you want to do factorial :");
+                long f = scn.nextLong();
+                System.out.print("The factorial of the number is : ");
+                System.out.println(fact(f));
+            }
         } 
         public static long fact(long n)
         {
