@@ -1,4 +1,3 @@
-// The main class is starting now
 import javax.swing.JFrame;
 import javax.swing.ImageIcon;
 import java.awt.*;
@@ -36,7 +35,7 @@ public class Images extends JFrame
     // Load picture
     public void loadpics()
     {
-        bg = new ImageIcon("Goku.jpg").getImage();
+        bg = new ImageIcon("Pikachu4.jpg").getImage();
         pic = new ImageIcon("Pikachu.jpg").getImage();
         loaded = true;
         repaint();

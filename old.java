@@ -180,5 +180,30 @@ public class old{
 // }
 
 
+// public void run(DisplayMode dm) {
+//     setBackground(Color.PINK);
+//     setForeground(Color.CYAN);
+//     setFont(new Font("Arial", Font.PLAIN, 24));
+
+//     Screen s = new Screen();
+//     try {
+//         s.setFullScreen(dm, this);
+//         try{
+//             Thread.sleep(5000);;
+//         }catch(Exception ex){}
+//     } finally{
+//         s.restoreScreen();
+//             }
+// }
+// public void paint (Graphics g)
+// {
+//     if(g instanceof Graphics2D)
+//     {
+//         Graphics2D g2 = (Graphics2D)g;
+//         g2.setRenderingHint(RenderingHints.KEY_TEXT_ANTIALIASING, RenderingHints.VALUE_TEXT_ANTIALIAS_ON);
+//     }
+//     g.drawString("This is gonna be awesome here", 200, 200);
+// }
+
     }
 }
