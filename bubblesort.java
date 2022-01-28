@@ -20,7 +20,6 @@ public class bubblesort
         System.out.println("\nDoing Bubble sort of the array");
         bubbleSort(array);
 
-
     } 
     public static void bubbleSort(int arr[]){
         for(int i = 0;i<arr.length-1;i++){
