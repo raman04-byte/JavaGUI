@@ -1,7 +1,4 @@
 import java.awt.*;
-import java.awt.FlowLayout;
-import java.awt.Frame;
-import java.awt.Label;
 import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
 import java.awt.event.MouseEvent;
@@ -52,17 +49,17 @@ public class MouseInput extends Core implements KeyListener,MouseMotionListener,
     }
     @Override
     public void keyTyped(KeyEvent e) {
-        // TODO Auto-generated method stub
+       
         
     }
     @Override
     public void keyPressed(KeyEvent e) {
-        // TODO Auto-generated method stub
+      
         
     }
     @Override
     public void keyReleased(KeyEvent e) {
-        // TODO Auto-generated method stub
+       
         
     }
     

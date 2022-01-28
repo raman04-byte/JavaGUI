@@ -1,7 +1,6 @@
 import java.awt.*;
 import java.awt.image.BufferStrategy;
 import java.awt.image.BufferedImage;
-import java.lang.reflect.InvocationTargetException;
 import javax.swing.JFrame;
 
 public class ScreenManager {

@@ -8,17 +8,18 @@ public class bubblesort
     }
     public static void gettingArray(){
         System.out.println("Enter an size of array");
-        Scanner scn = new Scanner(System.in);
-        int size = scn.nextInt();
-        int [] array = new int[size];
-        System.out.println("Enter elements in the array");
-        for (int i = 0; i <array.length; i++) {
-           array[i] = scn.nextInt();
+        try (Scanner scn = new Scanner(System.in)) {
+            int size = scn.nextInt();
+            int [] array = new int[size];
+            System.out.println("Enter elements in the array");
+            for (int i = 0; i <array.length; i++) {
+               array[i] = scn.nextInt();
+            }
+            System.out.println("Priting the array you have input");
+            printArray(array);
+            System.out.println("\nDoing Bubble sort of the array");
+            bubbleSort(array);
         }
-        System.out.println("Priting the array you have input");
-        printArray(array);
-        System.out.println("\nDoing Bubble sort of the array");
-        bubbleSort(array);
 
     } 
     public static void bubbleSort(int arr[]){

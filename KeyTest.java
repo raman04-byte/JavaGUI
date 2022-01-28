@@ -1,7 +1,4 @@
 import java.awt.*;
-import java.awt.FlowLayout;
-import java.awt.Frame;
-import java.awt.Label;
 import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
 
