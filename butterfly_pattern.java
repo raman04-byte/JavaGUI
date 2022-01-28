@@ -2,7 +2,7 @@ import java.util.*;
 
 public class butterfly_pattern {
     public static void main(String[] args) {
-        int n = 9999;
+        int n = 9;
         // First half
         for (int i = 1; i <= n; i++) {
             for (int j = 1; j <= i; j++) {
